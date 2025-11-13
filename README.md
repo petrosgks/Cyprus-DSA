@@ -57,21 +57,21 @@ openai/chatgpt-4o-latest
 
 # Execution Instructions
 
-1. Extract the Project Files
+1. Put all the above files in a common folder
 
-Extract all files from the provided .rar archive into a common folder.
+
 
 2. Run the Simulation
 
-Navigate to the folder and execute:
+   Navigate to the folder and execute:
 
-Using Python directly:
+   Using Python directly:
 
-python main_pyramses.py
+   python main_pyramses.py
 
-Or by double-clicking:
+   Or by double-clicking:
 
-Run the main_pyramses.py file from your file explorer.(Make sure the working directory is the same of the files)
+   Run the main_pyramses.py file from your file explorer.(Make sure the working directory is the same of the files)
 
 # Summary
 
