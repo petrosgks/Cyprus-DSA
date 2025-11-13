@@ -22,7 +22,7 @@ Also you 'll need a license from the author of Pyramses (Dr.Petros Aristeidou - 
 In order to enable the license go to solveroptions.dat and replace with the given license this part:
 
 ```bash
-$LICENSE        (YOUR LICENSE)     ;
+$LICENSE        YOUR LICENSE HERE     ;
 ```
 
 
