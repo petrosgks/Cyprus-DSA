@@ -1,8 +1,8 @@
 #  N-1 Dynamic Security Assessment for the Cyprus Transmission System
 
-This project provides a **Python-based Dynamic Security Assessment (DSA)** tool implementing the **N-1 criterion** for a simplified representation of the **Cyprus Transmission System**.
+This project provides a **Python-based Dynamic Security Assessment (DSA)** tool implementing the **N-1 criterion** for a simplified grid version of the **Cyprus Transmission System**.
 
-The simulation is based on **Pyramses**, while the framework supports reporting, visualization, and automated analysis through Large Language Models (LLMs).
+The simulation is based on **Pyramses**, while an automated analytical report after simulations is exported  through Large Language Models (LLMs).
 
 ---
 
@@ -13,13 +13,17 @@ Before running the tool, install the required Python libraries.
 ### Core Simulation Libraries
 ```bash
 pip install matplotlib scipy numpy mkl jupyter ipython pyramses
-```
-Also install these libraries
 
-```bash
 pip install pandas requests matplotlib markdown beautifulsoup4 reportlab
 ```
-Also you 'll need a license from the author of Pyramses (Dr.Petros Aristeidou-apetros@pm.me)
+
+Also you 'll need a license from the author of Pyramses (Dr.Petros Aristeidou - apetros@pm.me)
+
+In order to enable the license go to solveroptions.dat and replace with the given license this part:
+
+```bash
+$LICENSE        (YOUR LICENSE)     ;
+```
 
 
 # Configuration
@@ -78,13 +82,13 @@ openai/chatgpt-4o-latest
 
 This project allows you to:
 
-Simulate N-1 disturbances on a simplified Cyprus transmission grid
+ -Simulate N-1 disturbances on a simplified Cyprus transmission grid
 
-Evaluate system stability dynamically
+ -Evaluate system stability 
 
-Analyze LVRT/frequency events
+ -Analyze LVRT/frequency events
 
-Generate automated critical findings using LLMs
+ -Generate automated critical findings using LLMs
 
-Export graphical and textual reports
+
  
