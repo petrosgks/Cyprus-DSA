@@ -32,10 +32,29 @@ All simulation settings can be edited in config.py:
 
  -Other system-level limits
 
-# LLM-Based Report Generation
+# LLM Report Generation
 
 To automatically generate an analytical report using an LLM based on simulation results:
 
-Open config.py
+ 1.Open config.py
 
-Locate the LLM configuration section:
+ 2.Locate the LLM configuration section:
+```bash
+#LLM configuration
+
+api_key = "Your Api key"
+model = "Llm model"
+
+```
+ 3.Insert your API key from:
+
+ https://openrouter.ai/models
+
+ Recommended Model
+ 
+```bash
+openai/chatgpt-4o-latest
+
+
+```
+ 
