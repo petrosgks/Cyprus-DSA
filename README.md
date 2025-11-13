@@ -19,6 +19,8 @@ Also install these libraries
 ```bash
 pip install pandas requests matplotlib markdown beautifulsoup4 reportlab
 ```
+Also you 'll need a license from the author of Pyramses (Dr.Petros Aristeidou-apetros@pm.me)
+
 
 # Configuration
 
@@ -30,7 +32,7 @@ All simulation settings can be edited in config.py:
 
  -LVRT (Low Voltage Ride Through) curves
 
- -Other system-level limits
+ -Other system limits
 
 # LLM Report Generation
 
