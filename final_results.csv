@@ -1,0 +1,9 @@
+#N-1 DYNAMIC SECURITY ASSESSMENT REPORT
+#Generated at: 13-11-2025, 19:07:25
+#Simulation time: 365.29s
+#Processed DSTs: 170
+#Warnings detected: 1
+#System status: Alert state
+
+"N-1 Disturbance"	"Warning Messages"	"System Classification"
+"TRIP LINELN39"	"► UVFRT warning on bus BUS31"	"Alert state"
