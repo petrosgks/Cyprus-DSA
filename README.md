@@ -44,7 +44,6 @@ To automatically generate an analytical report using an LLM based on simulation 
 
 api_key = "Your Api key"
 model = "Llm model"
-
 ```
  3.Insert your API key from:
 
@@ -54,7 +53,37 @@ model = "Llm model"
  
 ```bash
 openai/chatgpt-4o-latest
-
-
 ```
+
+# Execution Instructions
+
+1. Extract the Project Files
+
+Extract all files from the provided .rar archive into a common folder.
+
+2. Run the Simulation
+
+Navigate to the folder and execute:
+
+Using Python directly:
+
+python main_pyramses.py
+
+Or by double-clicking:
+
+Run the main_pyramses.py file from your file explorer.(Make sure the working directory is the same of the files)
+
+# Summary
+
+This project allows you to:
+
+Simulate N-1 disturbances on a simplified Cyprus transmission grid
+
+Evaluate system stability dynamically
+
+Analyze LVRT/frequency events
+
+Generate automated critical findings using LLMs
+
+Export graphical and textual reports
  
