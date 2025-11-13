@@ -64,10 +64,9 @@ openai/chatgpt-4o-latest
 2. Run the Simulation
 
    Navigate to the folder and execute:
-
-   Using Python directly:
-
+```bash
    python main_pyramses.py
+```
 
    Or by double-clicking:
 
